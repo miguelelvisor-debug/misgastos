@@ -152,7 +152,7 @@ function AuthScreen() {
             ))}
           </div>
 
-          <Input label="Usuario" placeholder="ej: miguel" value={username}
+          <Input label="Usuario" placeholder="ej: Usuario" value={username}
             onChange={e => setUsername(e.target.value)} autoCapitalize="none" autoCorrect="off" />
           <Input label="Contraseña" type="password" placeholder="••••••••" value={pass}
             onChange={e => setPass(e.target.value)} onKeyDown={e => e.key === "Enter" && submit()} />
